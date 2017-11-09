@@ -7,4 +7,4 @@ This application takes an image like this …
 
 … and turns it into this ….
  
-![](intwo.jpg_transformed.jpg)
+![](intwo_transformed.jpg)

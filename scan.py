@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 # @Author: tintinux
 # @Date:   2017-11-08 22:40:21
-# @Last Modified time: 2017-11-09 00:28:43
+# @Last Modified time: 2017-11-09 10:50:10
 
 import imutils
 import argparse
@@ -19,7 +19,7 @@ args = vars(ap.parse_args())
 
 
 def filename_no_ext(file_name):
-    return file_name.split(':')[0]
+    return file_name.split('.')[0]
 
 
 def load_resize_image(img_name):
